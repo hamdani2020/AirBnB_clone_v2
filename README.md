@@ -4,6 +4,11 @@ This repository contains the initial stage of a student project to build a clone
 
 ---
 
+<center><h3>Resources for this project</h3></center>
+
+- [cmd module](https://docs.python.org/3/library/cmd.html)
+- [unittest module](https://docs.python.org/3/library/unittest.html#module-unittest)
+
 <center><h3>Repository Contents by Project Task</h3> </center>
 
 | Tasks | Files | Description |
