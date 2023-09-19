@@ -60,7 +60,7 @@ class FileStorage:
             except KeyError:
                 pass
 
-        def close(self):
-            """ This will deserialize the JSON file to objects
-            """
-            self.reload()
+     def close(self):
+        """ This will deserialize the JSON file to objects
+        """
+        self.reload()
