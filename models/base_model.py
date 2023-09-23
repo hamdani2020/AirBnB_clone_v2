@@ -12,7 +12,7 @@ class BaseModel:
     """
     id = Column(String(60), primary_key=True)
     created_at = Column(DateTime, default=datetime.utcnow(), nullable=False)
-    updated_at = Column(DateTIme, default=datetime.utcnow(), nullable=False)
+    updated_at = Column(DateTime, default=datetime.utcnow(), nullable=False)
 
     def __init__(self, *args, **kwargs):
         """Instantiate the base model class"""
