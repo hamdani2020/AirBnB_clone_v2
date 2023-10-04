@@ -152,4 +152,14 @@ Usage: <class_name>.update(<_id>, <dictionary>)
 
 # 0x03. AirBnB clone - Deploy static
 
+![Image](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/288/aribnb_diagram_0.jpg?cache=off)
 
+## Resources
+**Read or watch**
+-[How to use Fabric](https://www.digitalocean.com/community/tutorials/how-to-use-fabric-to-automate-administration-tasks-and-deployments)
+- [How to use Fabric in Python](https://www.pythonforbeginners.com/systems-programming/how-to-use-fabric-in-python)
+- [Fabric and command line options](https://docs.fabfile.org/en/1.13/usage/fab.html)
+- [Nginx configuration for beginners](http://nginx.org/en/docs/beginners_guide.html)
+- [Difference between root and alias on NGINX](https://blog.heitorsilva.com/en/nginx/diferenca-entre-root-e-alias-do-nginx/)
+- [Fabric for Python3](https://github.com/mathiasertl/fabric)
+- [Fabric Documentation](https://www.fabfile.org/)
