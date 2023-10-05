@@ -1,13 +1,19 @@
 #!/usr/bin/python3
 """compressed the static files"""
 
+from datetime import datetime
 from fabric.api import local
-import os
-from datetime import datatime
+from os.path import isdir
 
 def do_pack():
-    """compress all the content in the web_static into
-    .tgz archive
+    """compress all the web_server
     """
-    if not os.path.exists("version")
-
+    try:
+        date = datetime.now().strftime("%Y%m%d%H%M%S")
+        if isdir("versions") is False:
+            local("mkdir versions")
+        fname = "versions/web_static_{}.tgz".format(date)
+        local("tar -cvzf {} web_static".format(fname))
+        return fname
+    except:
+        return None
