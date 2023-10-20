@@ -38,10 +38,10 @@ def python_with_text(text='is cool'):
 
 @app.route('/number/<int:n>')
 def number(n=None):
-    """This allows request if the path variable is a valid 
-    integer
+    """This allows request if the path variable is integer
     """
     return str(n) + ' is a number'
+
 
 if __name__ == '__main__':
     app.url_map.strict_slashes = False
