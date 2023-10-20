@@ -14,21 +14,21 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    """Return string when route queried
+    """It displays "Hello HBNB!"
     """
     return 'Hello HBNB!'
 
 
 @app.route('/hbnb')
 def hbnb():
-    """Return string when route queried
+    """It returns string when the route queried
     """
     return 'HBNB'
 
 
 @app.route('/c/<text>')
 def c_is_fun(text):
-    """Return reformatted text
+    """Return reformatted text when the route is queried
     """
     return 'C ' + text.replace('_', ' ')
 
@@ -36,7 +36,7 @@ def c_is_fun(text):
 @app.route('/python/')
 @app.route('/python/<text>')
 def python_with_text(text='is cool'):
-    """Reformat text based on optional variable
+    """It reformats the text based on optional variable
     """
     return 'Python ' + text.replace('_', ' ')
 
