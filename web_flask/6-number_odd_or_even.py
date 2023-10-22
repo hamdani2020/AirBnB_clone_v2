@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 
 @app.route("/")
-def hello_hbnb():
+def hello():
     """This displays a string"""
     return "Hello HBNB!"
 
