@@ -8,13 +8,13 @@ from models import storage
 app = Flask(__name__)
 
 
-@app.route("/states")
-@app.route("/states/<id>")
-def states_list(id=None):
-    """This function renders template with states"""
-    path = "9-states.html"
+@app.route('/cities_by_states')
+def states_list():
+    """This function renders template with states
+    """
+    path = '8-cities_by_states.html'
     states = storage.all(State)
-    return render_template(path, states=states, id=id)
+    return render_template(path, states=states)
 
 
 @app.teardown_appcontext
